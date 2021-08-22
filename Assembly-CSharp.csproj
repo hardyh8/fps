@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6a751d92-4bd4-825e-6a11-f47626c8afda}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_8;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;STARTER_ASSETS_PACKAGES_CHECKED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Level.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Zombies.cs" />
+     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Gun.cs" />
+     <Compile Include="Assets\Scripts\Panel.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Effects\Vignette.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Managers\Manager.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\InputManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_Bullet.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_DecalManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_DamageInfo.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPWeapon.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_DamageTransfer.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_FadingDecal.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventorySpaceAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPCamera.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Attributes\vp_FloatFieldAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_Event.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Demo\vp_FPSDemo3.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Demo\vp_FPSDemo1.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPCameraSmoothToggle.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Level\Spawning\vp_SpawnPoint.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_PoolManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\AI\vp_SimpleAITurret.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\GUI\vp_PainHUD.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_Layer.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\GUI\vp_SimpleCrosshair.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_LocalPlayer.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_RigidbodyFX.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\SurfaceSystem\vp_ImpactEvent.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_WeaponThrower.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\AI\vp_SecurityCamTurret.cs" />
+     <Compile Include="Assets\Ufps\VR\Scripts\vp_VRCrosshair.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_MuzzleFlash.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_PlayerInventory.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Demo\vp_DoomsDayDevice.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPPlayerDamageHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_RigidbodyImpulse.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_Shell.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\SurfaceSystem\vp_Effect.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Level\vp_KillZone.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Powerups\vp_SlomoPowerup.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_CharacterController.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_UnitType.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Level\Spawning\vp_Remover.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_WeaponHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_SimpleFiring.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_ItemType.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_Shooter.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_CustomType.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponReloader.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\vp_ItemPickup.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Help\vp_Help.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceIdentifier.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Level\Spawning\vp_Placement.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_MathUtility.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPPistolReloader.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_Activity.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_GlobalEvent.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPPlayerEventHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_Explosion.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Level\MovingPlatform\vp_MovingPlatform.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPInput.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Attributes\vp_ItemIDAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventoryItemsAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\vp_ItemIdentifier.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Switch.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Powerups\vp_Powerup.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_PlayerItemDropper.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_Utility.cs" />
+     <Compile Include="Assets\Ufps\VR\Scripts\vp_VRTeleporter.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Attributes\vp_SeparatorAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_DamageHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Attributes\vp_ItemAmountAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_MaterialUtility.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\vp_ItemInstance.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_Attempt.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Demo\vp_FPSDemoManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_StateEventHandler.cs" />
+     <Compile Include="Assets\Ufps\VR\Scripts\vp_VRWeaponManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Attributes\vp_PropertyDrawerUtility.cs.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_Perlin.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_HitscanBullet.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_BodyAnimator.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Level\Spawning\vp_Respawner.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\Attributes\vp_InventoryCapsAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_WaypointGizmo.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\vp_Gameplay.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_WeaponShooter.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_TargetEvent.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_Billboard.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_Message.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_AudioUtility.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_WeaponReloader.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Attributes\vp_HelpBoxAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPInventory.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\ComponentSystem\vp_StateManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_PulsingLight.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPInteractManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPController.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_Bob.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Attributes\vp_ItemTypeAttribute.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\vp_UnitBankInstance.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_Spin.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_PlayerFootFXHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_RagdollHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_PlayerEventHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\ComponentSystem\vp_State.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Grab.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPBodyAnimator.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_AngleBob.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\FootstepManager\vp_SurfaceIdentifier.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_Timer.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_Regenerator.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_3DUtility.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_ParticleFXPooler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_3rdPersonWeaponAim.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_Spring.cs" />
+     <Compile Include="Assets\Ufps\VR\Scripts\vp_VRPainFlash.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_CapsuleController.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Climb.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPEarthquake.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Motion\vp_Toss.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\Interaction\vp_Interactable.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceType.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Demo\vp_DemoManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_Value.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_Input.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\SurfaceSystem\vp_SurfaceEffect.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_Controller.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_Weapon.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Demo\vp_FPSDemo2.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Level\Spawning\vp_RandomSpawner.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_Grenade.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponMeleeAttack.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\Interaction\vp_ItemGrab.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\Interaction\vp_PlatformSwitch.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\ItemTypes\vp_UnitBankType.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Combat\vp_FXBullet.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_EventHandler.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\ComponentSystem\vp_ComponentPreset.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponThrower.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\FootstepManager\vp_FootstepManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Demo\vp_FPSDemoPlaceHolderMessenger.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\vp_Debris.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Inventory\vp_Inventory.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Help\vp_UFPSHelp.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\GUI\vp_SimpleHUD.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Powerups\vp_HealthPowerup.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Powerups\vp_StatePowerup.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\ComponentSystem\vp_Component.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Effects\SurfaceSystem\vp_DecalManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\EventSystem\vp_EventDump.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_Gizmo.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Core\Utility\vp_TimeUtility.cs" />
+     <Compile Include="Assets\Ufps\VR\Scripts\vp_VRCameraManager.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\vp_FPWeaponShooter.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_PlayerRespawner.cs" />
+     <Compile Include="Assets\Ufps\Base\Scripts\Gameplay\Player\vp_PlayerDamageHandler.cs" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Run.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Default.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ArtilleryController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Default.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernWeaponZoom.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRPistolRun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PivotMuzzleWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SmackController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ArtilleryCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MechController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SniperInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverRun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\WallFacingCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Default.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeAttackToDown.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaWeaponCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverReload.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload2.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SystemOFFWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernControllerZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunZoom.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRRevolverDefault.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterRevolverZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\AstronautWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDown.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PivotWristWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\FreezeController.txt" />
+     <None Include="Assets\Ufps\Base\Content\Levels\SkyCity\CustomShaders\SimpleEmissive.shader" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Rewield.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Controller\ControllerDead.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraOutOfControl.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\DrunkInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponPullUp.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\OldSchoolWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PivotChestWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunOutOfControl.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraSlide.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\TurretWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponPistolZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\StompingInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Zoom.txt" />
+     <None Include="Assets\Ufps\Base\Content\Art\Body\Materials\InvisibleShadowCaster.shader" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\OldSchoolCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraRun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseLowSensCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01OutOfControl.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ControllerCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraDead.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\TurretCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterRevolver.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaShooterZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\WallFacingInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\OldSchoolInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseLowSensInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\FootFX\FootFXFixedTimeRun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\FreezeCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponPistolReload.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ArtilleryInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponRevolver.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunReload.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponPullUpLeft.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseSmoothingInput.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRPistolDefault.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Default.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ImmobileCamera.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRPistolZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseSmoothingCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SystemOFFCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterPistolOutOfControl.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Idle.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Zoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SniperShooter.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRRevolverZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PerspOldWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PivotElbowWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SystemOFFShooter.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterPistol.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SniperWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernShooter.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SniperCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Zoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PerspModernInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Crouch.txt" />
+     <None Include="Assets\Ufps\Base\Content\Levels\SkyCity\CustomShaders\Scroll_Emissive.shader" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Attack.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyWeaponCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernCameraZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MaceInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ImmobileController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PerspModernCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\OldSchoolController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponSwingLeft.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Shotgun01\ShooterShotgun01Zoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MechCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CrouchInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaShooter.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRPistolReload1.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Controller\ControllerClimb.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraReload.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MechInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SimpleAIShooter.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponSwingRight.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\DrunkController.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRRevolverCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernCameraCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernShooterZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Controller\ControllerZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyShooterZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Run.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Run.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponSwingDown.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ImmobileInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\DefaultCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyShooter.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\DefaultInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\DrunkWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\Persp1999Camera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\Persp1999Weapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\TurretInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\ShooterPistol01Default.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyWeaponZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterMachinegunOutOfControl.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRMaceDefault.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Controller\ControllerFreeze.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SystemOFFController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponPullDown.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRMachinegunRun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseSmoothingWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponPistolCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDownLeft.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverOutOfControl.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeAttackToDownLeft.txt" />
+     <None Include="Assets\Ufps\Base\Content\Art\Body\Animations\_README_Animations.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseRawUnityInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeAttackToUp.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRCameraDead.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01OutOfControl.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaWeaponZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\AstronautCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunRun.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Input\InputZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\TurretShooter.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseLowSensWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraDefault.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Shooter\ShooterPistolZoom.txt" />
+     <None Include="Assets\Ufps\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped.shader" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SystemOFFWeaponGlideIn.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MechShooter.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ControllerMegaSpeed.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MaceCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Crouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownLeft.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Grenade01\WeaponGrenade01Zoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeAttackToRight.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernWeaponCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\Persp1999Input.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Default.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponPullUpRight.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Zoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\OldSchoolShooter.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Input\InputDead.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernCameraZoomInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\CowboyCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Pistol01\WeaponPistol01Slide.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Controller\ControllerRun.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRMachinegunReload.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Reload.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRRevolverReload.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ImmobileWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraFreeze.txt" />
+     <None Include="Assets\Ufps\Base\Content\Art\Weapons\Source\BasicArms\_README_BasicArms.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\FootFX\FootFXFixedTimeCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PerspOldCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponSwingDownRight.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\WallFacingWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponRevolverCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MechWeaponZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Knife01\KnifeAttackToDownRight.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRMachinegunZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\DrunkCamera.txt" />
+     <None Include="Assets\Ufps\VR\Content\Scenes\_VR_SCENE_SETUP_README_.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MaceWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponPistol.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PerspModernWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Camera\CameraClimb.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\WeaponAssaultRifle01Crouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MechWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseRawUnityWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\AstronautController.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRMachinegunDefault.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponPistolOutOfControl.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\FreezeInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\AstronautInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Controller\ControllerDefault.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeAttackToDownRight.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\FootFX\FootFXFixedTimeZoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponPullLeft.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Input\InputClimb.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MafiaCameraCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Gameplay\Player\Local\OldInventory\_OLD_INVENTORY_README_.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\SystemOFFInput.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\Shotgun01\WeaponShotgun01Reload.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponPistolRun.txt" />
+     <None Include="Assets\Ufps\Base\Content\Levels\SkyCity\CustomShaders\ReflectiveCubeMapped_Glass.shader" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\WeaponsHD\AssaultRifle01\ShooterAssaultRifle01Zoom.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\StompingCamera.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\PerspOldInput.txt" />
+     <None Include="Assets\Ufps\Base\Content\Levels\SkyCity\CustomShaders\DiffuseVertexColor.shader" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Controller\ControllerCrouch.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MouseRawUnityCamera.txt" />
+     <None Include="Assets\Ufps\VR\Content\Presets\VRPistolReload2.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\ModernController.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponGenericSlide.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeAttackToLeft.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponPullRight.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\DefaultWeapon.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Standard\Weapon\WeaponMachinegunCrouch.txt" />
+     <None Include="Assets\Ufps\VR\_VR_README_.txt" />
+     <None Include="Assets\Ufps\Base\Scripts\Presets\Demo\MeleeWeaponSwingUp.txt" />
+ <Reference Include="UnityEngine">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GIModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityCurlModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.CoreModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GraphViewModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PackageManagerUIModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SceneTemplateModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsSamplesModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIServiceModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UnityConnectModule">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tracing">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Composition">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Web">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Transactions">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Web">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Serialization">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>/home/hardik/Documents/unity/2020.3.8f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/home/hardik/Documents/project/unity/Fps/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
